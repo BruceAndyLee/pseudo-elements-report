@@ -1,0 +1,38 @@
+.with-slug::after {
+    content: ', or is it?';
+    color: green;
+    font-weight: bold;
+}
+
+.with-prefix::before {
+    content: 'Wait, it\'s all a css example?';
+    color: red;
+    font-weight: 600;
+    font-style: italic;
+}
+
+p {
+    max-width: 38rem;
+}
+
+p::first-line {
+    background-color: burlywood;
+}
+
+p::first-letter {
+    font-size: 48px;
+    font-weight: 600;
+    font-style: italic;  
+    color: darkred;
+    background-color: lightgray;
+}
+
+p::selection {
+    background-color: lightseagreen;
+    color: beige;
+}
+
+input::placeholder {
+    background-color: bisque;
+    color: darkred;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pseudoelements.css">
+    <title>Pseudo Elements</title>
+</head>
+<body>
+    <div>
+        This is a regular div
+    </div>
+    <div class="with-slug">
+        This is a regular div
+    </div>
+
+    <div class="with-prefix">
+        always has been.
+    </div>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, ab?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, ab?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, ab?
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, ab?
+    </p>
+
+    <input type="text" placeholder="begin typing already...">
+</body>
+</html>
